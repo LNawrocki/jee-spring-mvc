@@ -12,9 +12,9 @@ public class FreeTimeController {
     @GetMapping("freeTimeController")
     @ResponseBody
     public String freeTimeController() {
-        String time = "";
-        String date = "";
-        LocalDate nowDate = LocalDate.now();
+//        String time = "";
+//        String date = "";
+//        LocalDate nowDate = LocalDate.now();
         LocalDateTime nowDateTime = LocalDateTime.now();
 
         return nowDateTime.toString();
